@@ -1,0 +1,110 @@
+/* Reset et typo */  
+* {  
+    box-sizing: border-box;  
+    margin: 0;  
+    padding: 0;  
+  }  
+  
+  body {  
+    font-family: 'Inter', sans-serif;  
+    background: #fff;  
+    color: #12234e;  
+    padding: 40px 20px;  
+  }  
+  
+  /* Conteneur principal */  
+  .main {  
+    max-width: 1100px;  
+    margin: 0 auto;  
+  }  
+  
+  /* Titre principal */  
+  .main-title {  
+    text-align: center;  
+    font-weight: 700;  
+    font-size: 24px;  
+    color: #12234e;  
+    margin-bottom: 25px;  
+  }  
+  
+  /* Grille des cartes */  
+  .container {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));  
+    gap: 20px 20px;  
+  }  
+  
+  /* Cartes communes */  
+  .main .card {  
+    /*background-color: #e6eaff; /* fond clair bleu */  
+    border-radius: 10px;  
+    padding: 25px 20px 25px 20px;  
+    background-color:  #c6cad4;
+    ;  
+    position: relative;  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: space-between;  
+    /*box-shadow: 0 0 7px rgb(18 35 78 / 0.1);  */
+  }  
+  
+  .card h3 {  
+    font-weight: 700;  
+    font-size: 16px;  
+    margin-bottom: 15px;
+    color:  #0044FF;
+    ;  
+  }  
+  
+  .card p {  
+    font-weight: 400;  
+    font-size: 11px;  
+    line-height: 1.4;  
+    color: #12234e;  
+    margin-bottom: 5px;  
+    flex-grow: 1;  
+  }  
+  
+  /* Image flèche à droite */  
+  .card img {  
+    width: 26px;  
+    height: 26px;  
+    align-self: flex-end;  
+    cursor: pointer;  
+    margin-top: 10px;  
+    filter: drop-shadow(0 0 1px rgba(18,35,78,0.15));  
+    transition: transform 0.3s ease;  
+  }  
+  
+  .card img:hover {  
+    transform: translateX(5px);  
+  }  
+  
+  /* Carte logo en bleu */  
+  .logo-card {  
+    /*background-color: #0049bc;  */
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    border-radius: 10px;  
+    padding: 20px;  
+  }  
+  
+  .logo-card > img {  
+    max-width: 700px;  
+/*?*height: auto;  */
+   /* filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.4)); */ 
+  }  
+  
+  /* Responsive - ajustements */  
+ /* @media screen and (max-width: 720px) {  
+    .container {  
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));  
+    }  
+  }  
+  
+  @media screen and (max-width: 400px) {  
+    .container {  
+      grid-template-columns: 1fr;  
+    }  
+  }  */

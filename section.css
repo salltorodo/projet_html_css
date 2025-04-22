@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .project-section {
+    position: relative;
+    background-image: url('../image/pexels-christina-morillo-1181421\ 1.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 24, 61, 0.7); 
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .content {
+    color: white;
+    max-width: 400px;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    background-color: #00cc66;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .phone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .phone-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .project-section .actions a {
+    background-color: #00cc66;
+  }
+  

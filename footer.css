@@ -1,0 +1,36 @@
+
+.footer {
+  background-color: #007bff; 
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+.footer .icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.footer .social-icons img {
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+}
+.footer .icon h6{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:  #FFFFFF82;
+    ;
+
+}
+.BB img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 60px;
+  left: 1143px;
+  top: 2200px;
+
+  
+}

@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.main-menu{
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    flex-wrap: wrap;
+    
+
+}
+.main-menu li a {
+    text-decoration: none;
+    color: var(--black);
+    
+}
+.logo{
+    height: 70px;
+    object-fit: contain;
+    
+}
